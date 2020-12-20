@@ -1,0 +1,97 @@
+
+/*==========================
+Flex Layout
+================================*/
+
+
+
+.body {
+    overflow: scroll;
+}
+
+
+
+ 
+  header {
+    text-align: center;
+  }
+
+
+
+h2 {
+  text-align: center;
+}
+
+.col {
+ 
+  flex-basis: 20%;
+  flex-direction: column-reverse;
+    
+    
+} 
+/*  
+  .flex-container {
+    
+    text-align: center;
+
+  } */
+
+section {
+  margin: auto; 
+
+}
+
+
+/*==========================
+Media Queries 
+================================*/
+
+/* 
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+ 
+.navigation {
+  flex-direction: column;
+  width: 100%; 
+  margin: auto; 
+  
+}
+
+
+ /* .column-1 {
+	 
+    width: 100%;
+  
+
+}  
+
+li button {
+  flex-direction: row;
+
+}
+
+.col,
+.col-2 { 
+  
+  width: 75%; 
+  margin: auto; 
+  
+  
+} 
+
+
+ @media only screen and (min-width: 800px) {
+ 
+
+    
+    
+}   
+
+
+
+
+@media (min-width: 1200px) {
+
+
+
+} 
