@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
     <body class="bg-info text-white">
@@ -24,8 +25,7 @@
             <div class="navbar-nav">
               <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link" href="#about">Bio</a>
-              <a class="nav-item nav-link" href="#speakers">Favorites</a>
-              <a class="nav-item nav-link" href="#schedule">Gallery</a>
+              <a class="nav-item nav-link" href="#gallery">Gallery</a>
             </div>
           </div>
         </div>
@@ -35,10 +35,10 @@
       <div class="jumbotron jumbotron-fluid bg-info text-white">
         <div class="container text-sm-center pt-5">
           <h1 class="display-2">Muhammad's Blog</h1>
-          <p class="lead">Honda Goldwing</p>
+          <p class="lead">Honda Motorcycles</p>
           <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
             <button type="button" class="btn btn-primary btn-lg">Bike Gallary</button>
-            <a class="btn btn-light btn-lg" href="#speakers">Click</a>
+            <a class="btn btn-light btn-lg" href="#gallery">Click</a>
           </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
             <img class="mb-4 img-fluid rounded d-none d-sm-block" src="images/RaceBike1.JPG" alt="racebike1">
             
           </div>
-          <div class="col-lg order-lg-2">
+          <div id="about" class="col-lg order-lg-2">
             <h3 class="mb-4">Bio</h3>
             <p>I've always been an adventrous person. My father gave me a dirt bike when I was 14, from then on, I knew
               I wanted to ride motorcycles. The love for motorcyles prompted me to race professionally. I placed
@@ -70,52 +70,50 @@
   
 
       <!-- Gallery -->
+      <h1 id="gallery" class="display-4 text-center my-5 text-muted">Bike Gallery</h1>
       <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-        <img class="card-img-top" src="images/Suzuki GSX-R7501988 2.JPG" alt="bike3" class="w-100 shadow-1-strong rounded mb-4"
-          alt=""/>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/Roadracing.JPG" alt=" bike1">
           
+          </div>
         </div>
       
-        <div class="col-lg-4 mb-4 mb-lg-0">
-      
-          <img class="card-img-top" src="images/Roadracing.JPG" alt="bike1" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/Suzuki GSX-R 75019886.JPG" alt="bike2">
+           
+          </div>
         </div>
       
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img class="card-img-top" src="images/SuzukiGSX-R7501988 .JPG" alt="bike3" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/Suzuki GSX-R7501988 2.JPG" alt="bike3">
+          </div>
+        </div>
       
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/Suzuki GSX-R75019884.JPG" alt="bike4">
+          </div>
         </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-        <img class="card-img-top" src="images/Suzuki GSX-R75019885.JPG" alt="bike2" class="w-100 shadow-1-strong rounded mb-4"
-          alt="" />
+      
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="images/Suzuki GSX-R75019885.JPG" alt="bike5">
+          </div>
         </div>
-
-      </div>
+      
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img class="card-img-top" src="images/SuzukiGSX-R7501988 .JPG" alt="bike6">
+        
+          </div>
+        </div>
+      </div><!-- /Gallery -->
       <!-- Gallery -->
     
-      <!-- <div class="col-md-6 col-lg-4">
-        <div class="card mb-3">
-          
-          <div class="card-body">
-          
-          </div>
-        </div>
-      </div>
-    
-      <div class="col-md-6 col-lg-4">
-        <div class="card mb-3">
-          
-          <div class="card-body">
-            
-          </div>
-        </div>
-      </div> -->
-  
-    </div><!-- /Gallary -->
-
-    
+      
     <!-- callout button -->
     <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal"
       data-target="#register">Don't Miss Out, Register Now</button>
